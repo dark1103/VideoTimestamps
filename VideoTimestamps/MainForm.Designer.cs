@@ -1,7 +1,7 @@
 ﻿
 namespace VideoTimestamps
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -30,7 +30,7 @@ namespace VideoTimestamps
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.time_textbox = new System.Windows.Forms.MaskedTextBox();
             this.start_btn = new System.Windows.Forms.Button();
             this.name_textbox = new System.Windows.Forms.TextBox();

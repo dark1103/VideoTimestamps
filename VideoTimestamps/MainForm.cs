@@ -17,7 +17,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace VideoTimestamps
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         private List<(TimeSpan, string)> stamps = new List<(TimeSpan, string)>();
         private BindingSource bindingSource;
@@ -29,7 +29,7 @@ namespace VideoTimestamps
 
         private bool haveChanges = false;
 
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
 
